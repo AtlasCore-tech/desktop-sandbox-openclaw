@@ -5,7 +5,7 @@
 
 When run without proper isolation, Moltbot can obtain broad access and perform actions far outside its intended scope. AtlasCore’s sandbox approach enforces boundaries and least-privilege practices so Moltbot can operate secure.
 
-Supported OS: **macOS** and **Windows**.
+Supported OS: **macOS 12.6+** and **Windows 10/11**.
 
 ## Why this matters
 - Prevents accidental or malicious overreach: AtlasCore reduces the blast radius if Moltbot requests or executes unintended actions.
