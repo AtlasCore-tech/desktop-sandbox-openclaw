@@ -17,10 +17,26 @@ Supported OS: **macOS 12.6+** and **Windows 10/11**.
 - Download and execute AtlasCore.pkg or AtlasCore.exe.
 - Complete the registration according to the wizard. 
 
-## Usage
+## Usage (macOS)
 1. Log in to the AtlasCore client.
-2. Install Moltbot inside AtlasCore.
-3. Use Moltbot in AtlasCore.
+2. Add iTerm.app and chrome.app in AtlasCore desktop.
+  ![6af5de1a30c4e32c86cbff73c4f8d9c8](https://github.com/user-attachments/assets/5a53b727-3fa5-44a2-ab05-bf112e2cb191)
+3. Downlod Moltbot sourcecode inside AtlasCore.
+   <img width="1014" height="701" alt="1" src="https://github.com/user-attachments/assets/63fe8b41-ae08-4739-9119-c16e98ce6212" />
+4. Prepare node ENV in AtlasCore.
+   <img width="857" height="616" alt="2" src="https://github.com/user-attachments/assets/3ae0cdf8-557d-4df5-b29e-fbe1096831ee" />
+5. Install depends using commands.
+   ```bash
+   pnpm install && pnpm run build   
+   pnpm run clawdbot onboard
+   ```
+   Configue the LLM following the wizard.
+6. Prepare the Moltbot gateway running enviroment.
+   <img width="893" height="603" alt="9" src="https://github.com/user-attachments/assets/1139bff2-1d11-4394-bfcb-cdb8e393e1f1" />
+7. Start the gateway service.
+   <img width="1649" height="729" alt="10" src="https://github.com/user-attachments/assets/ee20dafe-a5bb-4435-9155-ce88e8ee269e" />
+8. Complete the deployment of Moltbot.
+   <img width="1399" height="1051" alt="11" src="https://github.com/user-attachments/assets/811d9e64-af50-4b4f-823f-b8077143cd34" />
 
 ## Contact
 For questions about Atlascore, open an issue or contact the maintainers.
