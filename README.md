@@ -14,7 +14,7 @@ Supported OS: **macOS 12.6+** and **Windows 10/11**.
 - Reduced costs: No need to purchase an additional Mac Mini, reducing equipment investment.
 
 ## Install AtlasCore
-- Download and execute AtlasCore.apk or AtlasCore.exe.
+- Download and execute AtlasCore.pkg or AtlasCore.exe.
 - Complete the registration according to the wizard. 
 
 ## Usage
