@@ -11,7 +11,7 @@ Supported OS: **macOS 12.6+** and **Windows 10/11**.
 - Prevent accidental or malicious overreach: AtlasCore reduces the blast radius if OpenClaw requests or executes unintended actions.
 - Reduce leakage risk: OpenClaw only accesses and uses data within AtlasCore; local device data will not be damaged or leaked.
 - Eliminate friction between OpenClaw and the host OS: OpenClaw can interact with simulated system resources, execute scripts, and modify execution policies exactly as it would on a real desktop—all without exposing the host system to risks associated with untrusted commands, arbitrary executable runs, or policy modifications
-- Explore OpenClaw's full capabilities: It empowers developers, testers, and users to explore OpenClaw's full capabilities—including high-risk operations like policy customization and executable testing—without compromising the integrity of their native environment.
+- Explore OpenClaw's full capabilities: AtlasCore empowers developers, testers, and users to explore OpenClaw's full capabilities—including high-risk operations like policy customization and executable testing—without compromising the integrity of their native environment.
 - Peserve native essence while enhancing value: AtlasCore ensures that OpenClaw's power is never limited by security concerns, and that security is never achieved at the cost of functionality.
 - Reduce costs: No need to purchase an additional Mac mini, reducing equipment investment.
 
