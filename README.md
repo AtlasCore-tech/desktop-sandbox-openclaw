@@ -41,5 +41,35 @@ Supported OS: **macOS 12.6+** and **Windows 10/11**.
 8. Complete the deployment of OpenClaw.
    <img width="1399" height="1051" alt="11" src="https://github.com/user-attachments/assets/811d9e64-af50-4b4f-823f-b8077143cd34" />
 
+## Usage (Windows)
+1. Prepare node ENV before login.
+2. Log in to the AtlasCore client.
+3. Open the cmd inside AtlasCore.
+4. Install the OpenClaw.
+   ```bash
+   npm install -g openclaw@latest 
+   ``` 
+   <img width="1915" height="1038" alt="1" src="https://github.com/user-attachments/assets/b03f17bd-ff9b-45b6-abc9-2678c7ef152c" />
+
+5. Configure OpenClaw onboard.
+
+   ```bash
+   openclaw onboard 
+   ``` 
+   <img width="1914" height="1037" alt="da3cb7c18edd597e89a9c2813128995a" src="https://github.com/user-attachments/assets/e4e23d48-f584-4b39-b820-4169c4d17591" />
+6. Start OpenClaw gateway.
+
+   ```bash
+   openclaw gateway 
+   ```
+   <img width="1914" height="1037" alt="4" src="https://github.com/user-attachments/assets/24d6005b-b3cb-44c4-850c-2349a19cda71" />
+7. Start browser to access Webchat.
+
+   ```bash
+   openclaw dashboard 
+   ```
+   <img width="1918" height="1040" alt="5" src="https://github.com/user-attachments/assets/2a331bb4-514f-471c-9cc9-86caad5f8c6f" />
+
+
 ## Contact
 For questions about Atlascore, open an issue or contact the maintainers.
